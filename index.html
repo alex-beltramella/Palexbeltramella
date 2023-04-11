@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./script/index.js">
-    <title>Document</title>
+    <title>Casa de cambio</title>
 </head>
 <body>
+
+    <h3>CASA DE CAMBIO</h3>
+    <form class="formulario">
+        <p>Seleccionar moneda a enviar:</p>
+        <input type="radio" name="cambio" id="uno">Dólar
+        <input type="radio" name="cambio" id="dos">Euro
+        <p>Ingrese monto:</p>
+        <input type="number" min="1" id="valor" max="100000">
+        <input type="button" id="cotizador" value="Cotizar" onclick="convertir()">
+    </form>
     
+<script src="./script/index.js"></script>
 </body>
 </html>
