@@ -13,6 +13,7 @@ const pedirProducto = () => {
         1 - Gibson Stratocaster
         2 - Aston Reed EGS111
         3 - Fender Stratocaster
+
         Error, ingrese un numero valido:`));
     }
 
@@ -38,7 +39,7 @@ const q = () => {
     Presione 1 para SI
     Presione 2 para NO
     `));
-                            //Retorna true si NO es un numero
+
     while (p < 1 || p > 2 || isNaN(p) == true) {
     
         p =  parseInt(prompt(`
@@ -54,7 +55,6 @@ const q = () => {
     return p;
 }
 
-//Creación de clase 
 class Guitarra {
 
     constructor(producto,precio,microfonos,puente) {
@@ -64,7 +64,6 @@ class Guitarra {
         this.puente = puente; 
     
     }
-    //Método para mostras info
     mostrarInfo() {
         return alert(`Producto: ${this.producto} 
             Precio: ${this.precio}
@@ -76,11 +75,11 @@ class Guitarra {
 
 const Guitarras = [
 
-    ["Gibson Stratocaster",78000,"3 microfonos",`calificacion del tipo de puente: Synch tremolo`,1,"img/celu-01.avif"],
+    ["Gibson Stratocaster",78000,"3 microfonos",`calificacion del tipo de puente: Synch tremolo`,1,"img/guitarra-gibson.webp"],
     
-    ["Aston Reed",54000,"3 microfonos",`calificacion del tipo de puente: Synch tremolo`,2,"img/celu-02.png"],
+    ["Aston Reed",54000,"3 microfonos",`calificacion del tipo de puente: Synch tremolo`,2,"img/guitarra-aron-reed.webp"],
     
-    ["Fender Stratocaster",610000,"3 microfonos","con palanca", `calificacion del tipo de puente: Synch tremolo`,3,"img/celu-03.png"],
+    ["Fender Stratocaster",610000,"3 microfonos","con palanca", `calificacion del tipo de puente: Synch tremolo`,3,"img/guitarra-fender.webp"],
 
 
 ]
@@ -88,7 +87,7 @@ const Guitarras = [
 const productos = [];
 
 
-for ( let cel in Guitarras) {
+for (let cel in Guitarras) {
     let datos = Guitarras[cel];
     let nombre = datos[0];
     let precio = datos[1];
@@ -110,7 +109,6 @@ for ( let cel in Guitarras) {
 }
 
 
-
 for ( const i in Guitarras ) {
 
     productos[i] = new Guitarra( Guitarras[i][0],Guitarras[i][1],Guitarras[i][2],Guitarras[i][3] );
@@ -118,8 +116,6 @@ for ( const i in Guitarras ) {
 }
 
 const productosComprados = []; 
-
-
 
 let v = 1; 
 
@@ -141,5 +137,4 @@ let sumaTotales = totales.reduce((acum,t) => acum + t, 0);
 
 alert(`La suma total es de $${sumaTotales}`);
 
-
-alert("Muchas Gracias por su compra, Vuelva pronto:)");
+alert("Muchas Gracias por su compra, Vuelva pronto!");

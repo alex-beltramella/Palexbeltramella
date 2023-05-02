@@ -2,34 +2,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-    background-color: violet;
 }
 
-h3 {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 20px;
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.formulario {
-    margin: 20px;
-    font-size: 20px;
-    text-align: center;
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#uno {
-    width: 80px;
-    height: 15px;
+.main__tittle {
+    font-size: 4rem;
+    color: red;
 }
-#dos {
-    width: 80px;
-    height: 15px;
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
-#valor {
-    font-size: 20px;
-}
-#cotizador {
-    font-size: 20px;
+
+.card__container {
+    border: 2px solid black;
     border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.card__container:hover {
+    border: 2px solid black;
+}
+
+.card__img__container {
+    max-width: 250px;
+    max-height: 250px;
+    object-fit: contain;
+}
+
+.card__name {
+    font-size: 0.8rem;
+    width: 65%;
+    line-height: 1.2;
+
+}
+
+.card__precio {
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.card__id {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 0.9rem;
 }
