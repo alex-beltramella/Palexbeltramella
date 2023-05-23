@@ -4,7 +4,7 @@ const productos = [
     {
         id: "Bateria",
         titulo: "Bateria Mapex Prodigy",
-        imagen: "./img/inst-percusion/bateria-mapex-prodigy.webp",
+        imagen: "../img/inst-percusion/bateria-mapex-prodigy.webp",
         categoria: {
             nombre: "percusion",
             id: "percusion"
@@ -15,7 +15,7 @@ const productos = [
     {
         id: "hang",
         titulo: "Hang",
-        imagen: "./img/inst-percusion/hang.webp",
+        imagen: "../img/inst-percusion/hang.webp",
         categoria: {
             nombre: "percusion",
             id: "percusion"
@@ -26,7 +26,7 @@ const productos = [
     {
         id: "tambor",
         titulo: "Tambor Bombo Surdo",
-        imagen: "./img/inst-percusion/tambor.webp",
+        imagen: "../img/inst-percusion/tambor.webp",
         categoria: {
             nombre: "percusion",
             id: "percusion"
@@ -36,7 +36,7 @@ const productos = [
     {
         id: "timbaleta",
         titulo: "Timbaleta",
-        imagen: "./img/inst-percusion/timbal.webp",
+        imagen: "../img/inst-percusion/timbal.webp",
         categoria: {
             nombre: "percusion",
             id: "percusion",
@@ -46,7 +46,7 @@ const productos = [
     {
         id: "pandereta",
         titulo: "Pandereta",
-        imagen: "./img/inst-percusion/pandereta.webp",
+        imagen: "../img/inst-percusion/pandereta.webp",
         categoria: {
             nombre: "percusion",
             id: "percusion",
@@ -58,7 +58,7 @@ const productos = [
     {
         id: "arpa",
         titulo: "Arpa Walet Profesional",
-        imagen: "./img/inst-cuerda/arpa.webp",
+        imagen: "../img/inst-cuerda/arpa.webp",
         categoria: {
             nombre: "cuerda",
             id: "cuerda",
@@ -68,7 +68,7 @@ const productos = [
     {
         id: "cello",
         titulo: "Cello",
-        imagen: "./img/inst-cuerda/chelo.webp",
+        imagen: "../img/inst-cuerda/chelo.webp",
         categoria: {
             nombre: "cuerda",
             id: "cuerda",
@@ -78,7 +78,7 @@ const productos = [
     {
         id: "contrabajo",
         titulo: "Contrabajo",
-        imagen: "./img/inst-cuerda/contrabajo.webp",
+        imagen: "../img/inst-cuerda/contrabajo.webp",
         categoria: {
             nombre: "cuerda",
             id: "cuerda",
@@ -88,7 +88,7 @@ const productos = [
     {
         id: "guitarra-acustica",
         titulo: "Guitarra Acustica Parquer",
-        imagen: "./img/inst-cuerda/guitarra-acustica.webp",
+        imagen: "../img/inst-cuerda/guitarra-acustica.webp",
         categoria: {
             nombre: "cuerda",
             id: "cuerda",
@@ -98,7 +98,7 @@ const productos = [
     {
         id: "violin",
         titulo: "Violin",
-        imagen: "./img/inst-cuerda/violin.webp",
+        imagen: "../img/inst-cuerda/violin.webp",
         categoria: {
             nombre: "cuerda",
             id: "cuerda",
@@ -110,7 +110,7 @@ const productos = [
     {
         id: "clarinete",
         titulo: "Clarinete Knight",
-        imagen: "./img/inst-viento/clarinete.webp",
+        imagen: "../img/inst-viento/clarinete.webp",
         categoria: {
             nombre: "viento",
             id: "viento",
@@ -120,7 +120,7 @@ const productos = [
     {
         id: "flauta",
         titulo: "Flauta Dulce Yamaha",
-        imagen: "./img/inst-viento/flauta.webp",
+        imagen: "../img/inst-viento/flauta.webp",
         categoria: {
             nombre: "viento",
             id: "viento",
@@ -130,7 +130,7 @@ const productos = [
     {
         id: "trombon",
         titulo: "Trombon Knight",
-        imagen: "./img/inst-viento/trombon.webp",
+        imagen: "../img/inst-viento/trombon.webp",
         categoria: {
             nombre: "viento",
             id: "viento",
@@ -140,7 +140,7 @@ const productos = [
     {
         id: "trompeta",
         titulo: "Trompeta Knight",
-        imagen: "./img/inst-viento/trompeta.webp",
+        imagen: "../img/inst-viento/trompeta.webp",
         categoria: {
             nombre: "viento",
             id: "viento",
@@ -152,7 +152,7 @@ const productos = [
     {
         id: "acordeon",
         titulo: "Acordeon Corelli",
-        imagen: "./img/inst-idiofonos/acordeon.webp",
+        imagen: "../img/inst-idiofonos/acordeon.webp",
         categoria: {
             nombre: "idiofono",
             id: "idiofono",
@@ -162,7 +162,7 @@ const productos = [
     {
         id: "maracas",
         titulo: "Maracas Lp Macho",
-        imagen: "./img/inst-idiofonos/maracas.webp",
+        imagen: "../img/inst-idiofonos/maracas.webp",
         categoria: {
             nombre: "idiofono",
             id: "idiofono",
@@ -172,7 +172,7 @@ const productos = [
     {
         id: "triangulo",
         titulo: "Triangulo",
-        imagen: "./img/inst-idiofonos/triangulo.webp",
+        imagen: "../img/inst-idiofonos/triangulo.webp",
         categoria: {
             nombre: "idiofono",
             id: "idiofono",
@@ -184,7 +184,7 @@ const productos = [
     {
         id: "batería-electrica",
         titulo: "Bateria Electrica",
-        imagen: "./img/inst-electrofonos/bateria-electrica.webp",
+        imagen: "../img/inst-electrofonos/bateria-electrica.webp",
         categoria: {
             nombre: "electrofono",
             id: "electrofono",
@@ -194,7 +194,7 @@ const productos = [
     {
         id: "guitarra-electrica",
         titulo: "Bateria Electrica",
-        imagen: "./img/inst-electrofonos/guitarra-electrica.webp",
+        imagen: "../img/inst-electrofonos/guitarra-electrica.webp",
         categoria: {
             nombre: "electrofono",
             id: "electrofono",
@@ -204,7 +204,7 @@ const productos = [
     {
         id: "teclado",
         titulo: "Teclado Parquer",
-        imagen: "./img/inst-electrofonos/teclado.webp",
+        imagen: "../img/inst-electrofonos/teclado.webp",
         categoria: {
             nombre: "electrofono",
             id: "electrofono",
@@ -228,18 +228,11 @@ function cargarProductos() {
                 <p class="producto-precio">$${producto.precio}</p>
                 <button class="a-inst-percusion producto-agregar" id="${producto.id}">Agregar</button>
             </div>
-        `
+        `;
+
+        contenedorProductos.append(div);
     })
 
 }
 
-
-
-/* <div class="card-inst card h-100 producto" data-aos="zoom-out-up" data-aos-delay="300">
-    <img src="../img/inst-percusion/bateria-mapex-prodigy.webp" class="img card-img-top p-3" alt="bateria mapex prodigy producto">
-    <div class="card-body">
-        <h5 class="card-title card-nombres">Bateria Mapex Prodigy</h5>
-        <p>$10000</p>
-        <button class="a-inst-percusion" href="#">Agregar</button>
-    </div>
-</div> */
+cargarProductos();
