@@ -110,7 +110,7 @@ const productos = [
     {
         id: "clarinete",
         titulo: "Clarinete Knight",
-        imagen: "./img/inst-cuerda/clarinete.webp",
+        imagen: "./img/inst-viento/clarinete.webp",
         categoria: {
             nombre: "viento",
             id: "viento",
@@ -120,7 +120,7 @@ const productos = [
     {
         id: "flauta",
         titulo: "Flauta Dulce Yamaha",
-        imagen: "./img/inst-cuerda/flauta.webp",
+        imagen: "./img/inst-viento/flauta.webp",
         categoria: {
             nombre: "viento",
             id: "viento",
@@ -130,7 +130,7 @@ const productos = [
     {
         id: "trombon",
         titulo: "Trombon Knight",
-        imagen: "./img/inst-cuerda/trombon.webp",
+        imagen: "./img/inst-viento/trombon.webp",
         categoria: {
             nombre: "viento",
             id: "viento",
@@ -140,13 +140,106 @@ const productos = [
     {
         id: "trompeta",
         titulo: "Trompeta Knight",
-        imagen: "./img/inst-cuerda/trompeta.webp",
+        imagen: "./img/inst-viento/trompeta.webp",
         categoria: {
             nombre: "viento",
             id: "viento",
         },
         precio: 10000
     },
+
+    //INSTRUMENTOS IDIOFONOS
+    {
+        id: "acordeon",
+        titulo: "Acordeon Corelli",
+        imagen: "./img/inst-idiofonos/acordeon.webp",
+        categoria: {
+            nombre: "idiofono",
+            id: "idiofono",
+        },
+        precio: 10000
+    },
+    {
+        id: "maracas",
+        titulo: "Maracas Lp Macho",
+        imagen: "./img/inst-idiofonos/maracas.webp",
+        categoria: {
+            nombre: "idiofono",
+            id: "idiofono",
+        },
+        precio: 10000
+    },
+    {
+        id: "triangulo",
+        titulo: "Triangulo",
+        imagen: "./img/inst-idiofonos/triangulo.webp",
+        categoria: {
+            nombre: "idiofono",
+            id: "idiofono",
+        },
+        precio: 10000
+    },
+
+    //INSTRUMENTOS ELECTROFONOS
+    {
+        id: "batería-electrica",
+        titulo: "Bateria Electrica",
+        imagen: "./img/inst-electrofonos/bateria-electrica.webp",
+        categoria: {
+            nombre: "electrofono",
+            id: "electrofono",
+        },
+        precio: 10000
+    },
+    {
+        id: "guitarra-electrica",
+        titulo: "Bateria Electrica",
+        imagen: "./img/inst-electrofonos/guitarra-electrica.webp",
+        categoria: {
+            nombre: "electrofono",
+            id: "electrofono",
+        },
+        precio: 10000
+    },
+    {
+        id: "teclado",
+        titulo: "Teclado Parquer",
+        imagen: "./img/inst-electrofonos/teclado.webp",
+        categoria: {
+            nombre: "electrofono",
+            id: "electrofono",
+        },
+        precio: 10000
+    },
 ];
 
+const contenedorProductos = document.querySelector("#contenedor-productos");
 
+function cargarProductos() {
+
+    productos.forEach(producto => {
+
+        const div = document.createElement("div");
+        div.classList.add("producto");
+        div.innerHTML = `
+            <img src="${producto.imagen}" class="img card-img-top p-3 producto-imagen" alt="${producto.titulo}">
+            <div class="card-body producto-detalles">
+                <h5 class="card-title card-nombres producto-titulo">${producto.titulo}</h5>
+                <p class="producto-precio">$${producto.precio}</p>
+                <button class="a-inst-percusion producto-agregar" id="${producto.id}">Agregar</button>
+            </div>
+        `
+    })
+
+}
+
+
+
+/* <div class="card-inst card h-100 producto" data-aos="zoom-out-up" data-aos-delay="300">
+    <img src="../img/inst-percusion/bateria-mapex-prodigy.webp" class="img card-img-top p-3" alt="bateria mapex prodigy producto">
+    <div class="card-body">
+        <h5 class="card-title card-nombres">Bateria Mapex Prodigy</h5>
+        <p>$10000</p>
+        <button class="a-inst-percusion" href="#">Agregar</button>
+    </div>
+</div> */
