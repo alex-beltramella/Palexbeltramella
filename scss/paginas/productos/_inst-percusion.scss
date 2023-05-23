@@ -1,0 +1,23 @@
+.card-inst{
+    border-radius: 15px 0px 15px 0px;
+
+    .card-nombres {
+        background-color: $color-secundario;
+        font-size: 30px;
+        color: black;
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    .a-inst-percusion {
+        text-decoration: none;
+        color: black;
+        background-color: $color-secundario;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    .img{
+        width: 400px;
+        height: 400px;
+        overflow: cover;
+    }
+}
