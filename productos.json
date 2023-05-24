@@ -20,43 +20,43 @@
     {
         "name": "Guitarra Electrica",
         "desc": "Electrofono",
-        "price": 540,
-        "img": "./assets/img/brocoli.jpg"
+        "price": 90000,
+        "img": "./img/guitarra-electrica.webp"
     },
     {
-        "name": "Calabacín",
-        "desc": "Un kilo de calabacín natural fresco.",
-        "price": 430,
-        "img": "./assets/img/calabacin.jpg"
+        "name": "hang",
+        "desc": "percusion",
+        "price": 30000,
+        "img": "./img/hang.webp"
     },
     {
-        "name": "Cebolla",
-        "desc": "Un kilo de cebolla natural sin quimicos.",
-        "price": 420,
-        "img": "./assets/img/cebolla.jpg"
+        "name": "Tambor",
+        "desc": "percusion",
+        "price": 20000,
+        "img": "./img/tambor.webp"
     },
     {
-        "name": "Coles de Brucelas",
-        "desc": "500 gramos de coles de brucelas naturales frescas.",
-        "price": 370,
-        "img": "./assets/img/coles de brucelas.jpg"
+        "name": "teclado",
+        "desc": "electrofono",
+        "price": 70000,
+        "img": "./img/teclado.webp"
     },
     {
-        "name": "Espinaca",
-        "desc": "Dos kilos de espinaca natural sin quimicos.",
-        "price": 670,
-        "img": "./assets/img/espinaca.jpg"
+        "name": "triangulo",
+        "desc": "idiofono",
+        "price": 5000,
+        "img": "./img/triangulo.webp"
     },
     {
-        "name": "Tomate",
-        "desc": "Un kilo de tomate natural fresco sin quimicos.",
-        "price": 560,
-        "img": "./assets/img/tomate.jpg"
+        "name": "violin",
+        "desc": "cuerda",
+        "price": 100000,
+        "img": "./img/violin.webp"
     },
     {
-        "name": "Zanahoria",
-        "desc": "Dos kilos de zanahoria natural fresca.",
-        "price": 520,
-        "img": "./assets/img/zanahoria.jpg"
+        "name": "bateria mapex",
+        "desc": "percusion",
+        "price": 56000,
+        "img": "./img/bateria-mapex-prodigy.webp"
     }
 ]
