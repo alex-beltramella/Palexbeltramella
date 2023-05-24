@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Arpa",
+        "desc": "Cuerda",
+        "price": 10000,
+        "img": "./img/arpa.webp"
+    },
+    {
+        "name": "acordeon",
+        "desc": "Idiofono",
+        "price": 30000,
+        "img": "./img/acordeon.webp"
+    },
+    {
+        "name": "Bateria Electrica",
+        "desc": "Electrofono",
+        "price": 120000,
+        "img": "./img/bateria-electrica.webp"
+    },
+    {
+        "name": "Guitarra Electrica",
+        "desc": "Electrofono",
+        "price": 540,
+        "img": "./assets/img/brocoli.jpg"
+    },
+    {
+        "name": "Calabacín",
+        "desc": "Un kilo de calabacín natural fresco.",
+        "price": 430,
+        "img": "./assets/img/calabacin.jpg"
+    },
+    {
+        "name": "Cebolla",
+        "desc": "Un kilo de cebolla natural sin quimicos.",
+        "price": 420,
+        "img": "./assets/img/cebolla.jpg"
+    },
+    {
+        "name": "Coles de Brucelas",
+        "desc": "500 gramos de coles de brucelas naturales frescas.",
+        "price": 370,
+        "img": "./assets/img/coles de brucelas.jpg"
+    },
+    {
+        "name": "Espinaca",
+        "desc": "Dos kilos de espinaca natural sin quimicos.",
+        "price": 670,
+        "img": "./assets/img/espinaca.jpg"
+    },
+    {
+        "name": "Tomate",
+        "desc": "Un kilo de tomate natural fresco sin quimicos.",
+        "price": 560,
+        "img": "./assets/img/tomate.jpg"
+    },
+    {
+        "name": "Zanahoria",
+        "desc": "Dos kilos de zanahoria natural fresca.",
+        "price": 520,
+        "img": "./assets/img/zanahoria.jpg"
+    }
+]
