@@ -11,6 +11,8 @@ constructor(name, desc, price, img) {
 }
 }
 
+
+
 //Array de los productos
 const productos = [];
 
@@ -153,3 +155,22 @@ total = JSON.parse(localStorage.getItem("localTotal"))
 //Obtiene los productos y los muestra en el html
 obtenerProductos()
 mostrarDOM()
+
+
+//switch color mode
+const colorModeButton = document.querySelector("#color-mode");
+const body = document.body;
+
+
+colorModeButton.addEventListener("click", cambiarModoColor);
+
+function cambiarModoColor() {
+    body.classList.toggle("dark-mode");
+
+    if (body.classList.contains("dark-mode")) {
+        colorModeButton.innerText = "Modo white";
+    } else {
+        colorModeButton.innerText = "Modo black";
+    }
+}
+

@@ -6,7 +6,7 @@
         "img": "./img/arpa.webp"
     },
     {
-        "name": "acordeon",
+        "name": "Acordeon",
         "desc": "Idiofono",
         "price": 30000,
         "img": "./img/acordeon.webp"
@@ -24,7 +24,7 @@
         "img": "./img/guitarra-electrica.webp"
     },
     {
-        "name": "hang",
+        "name": "Hang",
         "desc": "percusion",
         "price": 30000,
         "img": "./img/hang.webp"
@@ -36,25 +36,25 @@
         "img": "./img/tambor.webp"
     },
     {
-        "name": "teclado",
+        "name": "Teclado",
         "desc": "electrofono",
         "price": 70000,
         "img": "./img/teclado.webp"
     },
     {
-        "name": "triangulo",
+        "name": "Triangulo",
         "desc": "idiofono",
         "price": 5000,
         "img": "./img/triangulo.webp"
     },
     {
-        "name": "violin",
+        "name": "Violin",
         "desc": "cuerda",
         "price": 100000,
         "img": "./img/violin.webp"
     },
     {
-        "name": "bateria mapex",
+        "name": "Bateria mapex",
         "desc": "percusion",
         "price": 56000,
         "img": "./img/bateria-mapex-prodigy.webp"

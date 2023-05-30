@@ -10,8 +10,21 @@
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
+
+/*Dark mode*/
 body {
-    background-color: rgb(34, 34, 34);
+    background-color: whitesmoke;
+    transition: background-color 0.3s, color 0.3s;
+}
+body.dark-mode {
+    background-color: rgb(20, 19, 19);
+    color: white;
+}/*# sourceMappingURL-main.css.map*/
+
+.btn-modo-black {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
 }
 
 .grid {
@@ -33,16 +46,23 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0.75rem 1rem;
+    padding: 0.85rem 1rem;
     grid-area: header;
 }
 .header .header__icon {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     margin-right: 1rem;
 }
 .header .header__cart {
     font-size: 1.8rem;
     margin-right: 1rem;
+}
+
+.header__music {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.164);
+    width: 100%;
+    border-radius: 0px 10px 10px 0px;
 }
 
 main {
@@ -79,12 +99,19 @@ main {
     width: 250px;
     height: 440px;
     border: 1px solid whitesmoke;
-    border-radius: 10px;
+    border-radius: 20px 0px 20px 0px;
     overflow: hidden;
     text-align: center;
     background-color: rgb(23, 23, 23);
+    transition: transform .5s;
 }
+.card:hover {
+    transform: scale(1.1);
+}
+
 .card .card__img {
+    padding: 3px;
+    border-radius: 20px 0px 20px 0px;
     width: 100%;
     height: 250px;
     border-bottom: 1px solid whitesmoke;
@@ -106,15 +133,16 @@ main {
 }
 .card .card__button:hover {
     background-color: rgb(52, 52, 52);
-    box-shadow: 0px 0px 5px white;
+    box-shadow: 0px 0px 10px rgb(235, 193, 55);
 }
 
 .card__row {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     padding-bottom: 2rem;
 }
+
 
 .containerCart {
     background-color: rgb(23, 23, 23);
@@ -162,7 +190,7 @@ main {
 }
 .containerCart .containerCart__Btn:hover {
     background-color: rgb(52, 52, 52);
-    box-shadow: 0px 0px 5px white;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
 }
 
 .footer {
