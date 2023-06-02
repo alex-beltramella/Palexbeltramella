@@ -36,7 +36,7 @@ for (const producto of productos) {
     div.innerHTML = 
     `
     <img class="card__img" src = "${producto.img}" alt="">
-    <h2 class="card__title"> ${producto.name} </h2>
+    <h2 class="card__title" id="productoname"> ${producto.name} </h2>
     <p class="card__desc"> ${producto.desc} </p>
     <p> $${producto.price}</p>
     <button id="btn${producto.name}" class="card__button"> Comprar <i class="fa-solid fa-cart-plus"></i> </button>
@@ -168,9 +168,11 @@ function cambiarModoColor() {
     body.classList.toggle("dark-mode");
 
     if (body.classList.contains("dark-mode")) {
-        colorModeButton.innerText = "Modo white";
+        colorModeButton.innerText = "White Mode";
     } else {
-        colorModeButton.innerText = "Modo black";
+        colorModeButton.innerText = "Black Mode";
     }
-}
+};
 
+
+//BUSCADOR DE PRODUCTOS

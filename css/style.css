@@ -10,7 +10,6 @@
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
-
 /*Dark mode*/
 body {
     background-color: whitesmoke;
@@ -22,9 +21,12 @@ body.dark-mode {
 }/*# sourceMappingURL-main.css.map*/
 
 .btn-modo-black {
-    background-color: black;
-    color: white;
+    width: 100px;
+    background-color: white;
+    color: black;
     border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
 }
 
 .grid {
@@ -43,12 +45,8 @@ body.dark-mode {
 
 .header {
     background-color: rgb(23, 23, 23);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0.85rem 1rem;
-    grid-area: header;
 }
+
 .header .header__icon {
     font-size: 1.9rem;
     margin-right: 1rem;
@@ -60,10 +58,36 @@ body.dark-mode {
 
 .header__music {
     color: white;
-    background-color: rgba(255, 255, 255, 0.164);
-    width: 100%;
     border-radius: 0px 10px 10px 0px;
+    font-size: 40px;
 }
+.header__music:hover {
+    color: white;
+}
+
+.search {
+    display: flex;
+}
+.btn__search {
+    color: white;
+    border: 0.5px solid white;
+}
+.btn__search:hover {
+    background-color: rgba(255, 255, 255, 0.315);
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+.nav-link:hover {
+    background-color: rgba(255, 252, 63, 0.404);
+    border-radius: 10px 0px 10px 0px;
+}
+
 
 main {
     text-align: center;
@@ -107,25 +131,29 @@ main {
 }
 .card:hover {
     transform: scale(1.1);
+    -webkit-box-shadow: -6px 6px 19px -1px rgba(252,235,53,0.73);
+    -moz-box-shadow: -6px 6px 19px -1px rgba(252,235,53,0.73);
+    box-shadow: -6px 6px 19px -1px rgba(252,235,53,0.73);
 }
 
 .card .card__img {
     padding: 3px;
     border-radius: 20px 0px 20px 0px;
     width: 100%;
-    height: 250px;
+    height: 230px;
     border-bottom: 1px solid whitesmoke;
 }
 .card .card__title {
     font-size: 1.5rem;
     padding: 0.5rem 0;
+    color: white;
 }
 .card .card__desc {
     padding: 0rem 1rem 1rem 1rem;
 }
 .card .card__button {
     border: 1px solid whitesmoke;
-    border-radius: 5px;
+    border-radius: 20px 0px 20px 0px;
     background-color: rgb(34, 34, 34);
     padding: 0.5rem 1rem;
     margin-top: 1rem;
@@ -138,7 +166,7 @@ main {
 
 .card__row {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
     padding-bottom: 2rem;
 }
@@ -198,4 +226,8 @@ main {
     text-align: center;
     grid-area: footer;
     padding: 0.5rem 0;
+}
+
+.filter {
+    display: none;
 }
