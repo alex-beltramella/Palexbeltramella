@@ -10,7 +10,7 @@
     src="https://kit.fontawesome.com/9fa2adda2d.js"
     crossorigin="anonymous"
     ></script>
-    <title>Music Section</title>
+    <title>Music Section - Productos</title>
 </head>
 <body class="grid">
     <header class="header">
@@ -33,7 +33,7 @@
                         <button id="color-mode" class="btn-modo-black">Black Mode</button>
                     </div>            
                     <div class="search" role="search">
-                        <input class="card-filter form-control me-2" type="search" placeholder="Buscar productos" aria-label="Search" id="formulario">
+                        <input class="filtro-carta form-control me-2" type="search" placeholder="Buscar productos" aria-label="Search" id="">
                         <button class="btn btn__search btn__search" type="submit" id="boton">Buscar</button>
                     </div>
                 </div>
@@ -46,6 +46,7 @@
             el proyecto de JS.
         </h2>
         <div id="container" class="card__row"></div>
+        <ul id="result" class="result"></ul>
             <div class="containerCart">
                 <h3>Carrito</h3>
                 <div id="cart"></div>
@@ -53,7 +54,7 @@
                     <button id="erase" class="containerCart__Btn">
                         Quitar productos <i class="fas fa-trash"></i>
                     </button>
-                    <button id="buy" class="containerCart__Btn">¡Comprar! <i class="fas fa-dollar-sign"></i></button>
+                    <button onclick="buscar()" id="buy" class="containerCart__Btn">¡Comprar! <i class="fas fa-dollar-sign"></i></button>
                 </div>
             </div>
     </main>
